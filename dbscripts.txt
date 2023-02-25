@@ -1,4 +1,10 @@
 CREATE TABLE order
 id VARCHAR(10)
 user VARCHAR(20)
-amount DOUBLE;
+totalAmount DOUBLE;
+
+CREATE TABLE orderentries
+id VARCHAR(10)
+orderId VARCHAR(10)
+productId VARCHAR(20)
+productPrice DOUBLE;
