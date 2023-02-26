@@ -16,6 +16,7 @@ orderVersionId VARCHAR(10)
 paymentproviderId VARCHAR(10)
 paymentMode PaymentModeType
 paymentAmount DOUBLE;
+refundReason VARCHAR(100)
 
 CREATE TABLE paymenttransactionentries
 id VARCHAR(10)
