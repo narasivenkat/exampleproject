@@ -8,3 +8,16 @@ id VARCHAR(10)
 orderId VARCHAR(10)
 productId VARCHAR(20)
 productPrice DOUBLE;
+
+CREATE TABLE paymenttransaction
+id VARCHAR(10)
+orderVersionId VARCHAR(10)
+paymentproviderId VARCHAR(10)
+paymentMode PaymentModeType
+paymentAmount DOUBLE;
+
+CREATE TABLE paymenttransactionentries
+id VARCHAR(10)
+paymenttransactionId VARCHAR(10)
+orderId VARCHAR(10)
+paymentstatus
