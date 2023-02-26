@@ -22,4 +22,4 @@ CREATE TABLE paymenttransactionentries
 id VARCHAR(10)
 paymenttransactionId VARCHAR(10)
 orderId VARCHAR(10)
-paymentstatus;
+paymentstatus PaymentStatusType;
