@@ -11,6 +11,7 @@ productPrice DOUBLE;
 
 CREATE TABLE paymenttransaction
 id VARCHAR(10)
+orderId VARCHAR(10)
 orderVersionId VARCHAR(10)
 paymentproviderId VARCHAR(10)
 paymentMode PaymentModeType
